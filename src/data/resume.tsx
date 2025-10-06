@@ -2,13 +2,13 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Nilangshu Bhattacharyya",
+  name: "Charliehustler",
   initials: "NB",
   url: "https://nilangshu.dev",
   location: "Kolkata, India",
   locationLink: "https://www.google.com/maps/place/Kolkata",
-  description: "Mechanical Engineering Student & Full Stack Developer. I love building scalable web applications and solving complex problems.",
-  summary: "I'm a Mechanical Engineering student at Jadavpur University with a passion for full-stack development. I've built interactive web applications serving 1000+ users, developed AI-powered SaaS platforms, and actively contribute to technical communities. I enjoy creating solutions that blend engineering principles with modern web technologies.",
+  description: "I'm a backend-focused developer passionate about elegant system design and scalable architecture. Currently building with Next.js, Go, and event-driven systems.",
+  summary: "I'm a undergraduate student at Jadavpur University with a passion for full-stack development. I've built interactive web applications serving 1000+ users, developed AI-powered SaaS platforms, and actively contribute to technical communities. I enjoy creating solutions that blend engineering principles with modern web technologies.",
   avatarUrl: "/me.png",
   skills: [
     "JavaScript",
@@ -89,16 +89,16 @@ export const DATA = {
   education: [
     {
       school: "Jadavpur University",
-      href: "https://jaduniv.edu.in",
-      degree: "Bachelor of Engineering in Mechanical Engineering",
+      href: "https://jadavpuruniversity.in/",
+      degree: "Bachelor of Engineering",
       logoUrl: "/julogo.png",
       start: "2023",
       end: "2027",
-      description: "CGPA: 7.62. Currently pursuing mechanical engineering with focus on computational methods and software development.",
+      description: "CGPA: 7.62",
     },
     {
       school: "Holy Cross School",
-      href: "#",
+      href: "https://holycrossschoolbaruipur.com/",
       degree: "Higher Secondary Education",
       logoUrl: "/hcslogo.jpg", 
       start: "2021",

@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     default: DATA.name,
     template: `%s | ${DATA.name}`,
   },
+  icons: {
+    icon: "/me.png",
+  },
   description: DATA.description,
   openGraph: {
     title: `${DATA.name}`,
