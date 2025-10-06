@@ -230,7 +230,7 @@ export const DATA = {
       image: "/doubleslash.png",
     },
   ],
-  hackathons: [
+  /* hackathons: [
     {
       title: "Snap Syntax, SRIJAN 2025",
       dates: "2025",
@@ -255,5 +255,5 @@ export const DATA = {
         },
       ],
     },
-  ]
+  ] */
 } as const;
