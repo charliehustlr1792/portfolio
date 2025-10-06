@@ -110,7 +110,7 @@ export const DATA = {
     {
       title: "Huddle – 2D Interactive Web Application",
       href: "https://huddlecypher3331.vercel.app/",
-      dates: "2024",
+      dates: "2025",
       active: true,
       description: "Developed interactive 2D game platform serving 1000+ participants during Cypher 3331. Built with Next.js, Phaser.js, and Redux for game rendering and state management. Architected scalable backend with Node.js, Express.js, Prisma ORM, and PostgreSQL.",
       technologies: [
@@ -130,12 +130,12 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/huddle.png",
     },
     {
       title: "SynthScrape – AI-Powered Visual Automated Data Extraction",
       href: "https://synth-scrape.vercel.app/",
-      dates: "2024",
+      dates: "2025",
       active: true,
       description: "Built full-stack SaaS platform with drag and drop workflow builder for no-code automated data extraction. Implemented workflow builder using React Flow and integrated Puppeteer for browser automation with comprehensive credit-based payment system.",
       technologies: [
@@ -159,7 +159,7 @@ export const DATA = {
     {
       title: "PostPilot – Content Management System",
       href: "https://github.com/charliehustlr1792/postpilot",
-      dates: "2024",
+      dates: "2025",
       active: true,
       description: "Developed content management system for content creation, scheduling, and cross-platform publishing. Integrated OpenAI GPT APIs for AI content generation and machine learning models for optimal posting times.",
       technologies: [
@@ -180,6 +180,54 @@ export const DATA = {
         },
       ],
       image: "",
+    },
+    {
+      title: "HelloIEEE (Freelance Project)",
+      href: "https://hello.ieee-jaduniv.in/",
+      dates: "2024",
+      active: true,
+      description: "Developed official website for Hello IEEE 2025 event which included a quiz application with real time leaderboard. Built with Next.js and integrated Supabase for real-time data handling and user authentication.",
+      technologies: [
+        "Next.js",
+        "TailwindCSS",
+        "Node.js",
+        "Express.js",
+        "Prisma",
+        "PostgreSQL",
+        "Vercel"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://hello.ieee-jaduniv.in/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/helloieee.png",
+    },
+    {
+      title: "DoubleSlash 3.0 (Freelance Project)",
+      href: "https://doubleslash3.ieee-jaduniv.in/",
+      dates: "2025",
+      active: true,
+      description: "Developed official website for Double Slash 3.0 hackathon event. Implemented responsive design with Next.js and TailwindCSS, ensuring seamless user experience across devices.",
+      technologies: [
+        "Next.js",
+        "TailwindCSS",
+        "Node.js",
+        "Express.js",
+        "Prisma",
+        "PostgreSQL",
+        "Vercel"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://doubleslash3.ieee-jaduniv.in/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/doubleslash.png",
     },
   ],
   hackathons: [
