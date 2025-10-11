@@ -73,7 +73,7 @@ export const DATA = {
       },
     },
   },
-  work: [
+  /* work: [
     {
       company: "IEEE Jadavpur University Student Branch",
       href: "https://ieeejusb.org",
@@ -85,7 +85,7 @@ export const DATA = {
       end: "Present",
       description: "Developed interactive 2D web application for Cypher 3331, enabling 1000+ participants using Next.js, Phaser.js, and PostgreSQL. Built official website for Double Slash 3.0 hackathon and IEEE JUSB events with responsive design.",
     },
-  ],
+  ], */
   education: [
     {
       school: "Jadavpur University",
