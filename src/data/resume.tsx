@@ -73,19 +73,30 @@ export const DATA = {
       },
     },
   },
-  /* work: [
+  work: [
     {
-      company: "IEEE Jadavpur University Student Branch",
-      href: "https://ieeejusb.org",
-      badges: ["Technical Team"],
-      location: "Kolkata, India",
-      title: "Technical Team Member",
-      logoUrl: "/ieeejusb.png",
-      start: "May 2024",
-      end: "Present",
-      description: "Developed interactive 2D web application for Cypher 3331, enabling 1000+ participants using Next.js, Phaser.js, and PostgreSQL. Built official website for Double Slash 3.0 hackathon and IEEE JUSB events with responsive design.",
+      company: "Deep Duo Foundation",
+      href: "https://deepduofoundation.com/",
+      badges: [],
+      location: "Remote",
+      title: "Backend Developer Intern",
+      logoUrl: "/ddf.png",
+      start: "Jan 2026",
+      end: "March 2026",
+      description: "",
     },
-  ], */
+    {
+      company: "Crework Labs",
+      href: "https://www.creworklabs.com/",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack Developer Intern",
+      logoUrl: "/crework.png",
+      start: "March 2026",
+      end: "Present",
+      description: "",
+    },
+  ],
   education: [
     {
       school: "Jadavpur University",
