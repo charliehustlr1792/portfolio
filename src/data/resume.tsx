@@ -165,7 +165,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/synthscrape.png",
     },
     {
       title: "PostPilot – Content Management System",
@@ -191,6 +191,27 @@ export const DATA = {
         },
       ],
       image: "/postpilot.png",
+    },
+    {
+      title: "Baymax – Mental Health Chatbot",
+      href: "https://baymaxcompanion.vercel.app/",
+      dates: "2026",
+      active: true,
+      description: "Built a mental health chatbot using Retrieval Augmented Generation (RAG) during a hackathon.",
+      technologies: [
+        "RAG",
+        "Python",
+        "Groq API",
+        "Next.js", 
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://baymaxcompanion.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/baymax.png",
     },
     {
       title: "HelloIEEE (Freelance Project)",
