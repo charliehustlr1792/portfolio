@@ -214,53 +214,27 @@ export const DATA = {
       image: "/baymax.png",
     },
     {
-      title: "HelloIEEE (Freelance Project)",
-      href: "https://hello.ieee-jaduniv.in/",
-      dates: "2024",
+      title: "Elite Ball Knowledge",
+      href: "https://github.com/charliehustlr1792/fifawc26",
+      dates: "2026",
       active: true,
-      description: "Developed official website for Hello IEEE 2025 event which included a quiz application with real time leaderboard. Built with Next.js and integrated Supabase for real-time data handling and user authentication.",
+      description: "A terminal app for the FIFA World Cup 2026. Live scores, fixtures, standings, top scorers, written in Go.",
       technologies: [
-        "Next.js",
-        "TailwindCSS",
-        "Node.js",
-        "Express.js",
-        "Prisma",
-        "PostgreSQL",
-        "Vercel"
+        "Go",
+        "Cobra-cli",
+        "Bubbletea",
+        "Lipgloss"
       ],
       links: [
         {
-          type: "Website",
-          href: "https://hello.ieee-jaduniv.in/",
+          type: "Github",
+          href: "https://github.com/charliehustlr1792/fifawc26",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/helloieee.png",
+      image: "",
     },
-    {
-      title: "DoubleSlash 3.0 (Freelance Project)",
-      href: "https://doubleslash3.ieee-jaduniv.in/",
-      dates: "2025",
-      active: true,
-      description: "Developed official website for Double Slash 3.0 hackathon event. Implemented responsive design with Next.js and TailwindCSS, ensuring seamless user experience across devices.",
-      technologies: [
-        "Next.js",
-        "TailwindCSS",
-        "Node.js",
-        "Express.js",
-        "Prisma",
-        "PostgreSQL",
-        "Vercel"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://doubleslash3.ieee-jaduniv.in/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/doubleslash.png",
-    },
+    
   ],
   /* hackathons: [
     {
