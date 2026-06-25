@@ -15,20 +15,37 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
   title: {
-    default: DATA.name,
-    template: `%s | ${DATA.name}`,
+    default: `${DATA.seoTitle} — ${DATA.jobTitle}`,
+    template: `%s | ${DATA.seoTitle}`,
   },
+  alternates: {
+    canonical: "/",
+  },
+  applicationName: DATA.fullName,
+  authors: [{ name: DATA.fullName, url: DATA.url }],
+  creator: DATA.fullName,
+  publisher: DATA.fullName,
+  keywords: [...DATA.keywords],
+  category: "technology",
   icons: {
     icon: "/me.png",
   },
   description: DATA.description,
   openGraph: {
-    title: `${DATA.name}`,
+    title: `${DATA.seoTitle} — ${DATA.jobTitle}`,
     description: DATA.description,
     url: DATA.url,
-    siteName: `${DATA.name}`,
+    siteName: DATA.seoTitle,
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: DATA.avatarUrl,
+        width: 1200,
+        height: 1200,
+        alt: DATA.fullName,
+      },
+    ],
   },
   robots: {
     index: true,
@@ -42,12 +59,10 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: `${DATA.name}`,
+    title: `${DATA.seoTitle} — ${DATA.jobTitle}`,
+    description: DATA.description,
     card: "summary_large_image",
-  },
-  verification: {
-    google: "",
-    yandex: "",
+    images: [DATA.avatarUrl],
   },
 };
 

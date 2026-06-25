@@ -11,9 +11,46 @@ import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
 
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: DATA.fullName,
+  alternateName: DATA.alternateName,
+  url: DATA.url,
+  image: `${DATA.url}${DATA.avatarUrl}`,
+  jobTitle: DATA.jobTitle,
+  description: DATA.description,
+  email: `mailto:${DATA.contact.email}`,
+  knowsAbout: [...DATA.skills],
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Kolkata",
+    addressRegion: "West Bengal",
+    addressCountry: "India",
+  },
+  alumniOf: DATA.education.map((school) => ({
+    "@type": "CollegeOrUniversity",
+    name: school.school,
+    sameAs: school.href,
+  })),
+  worksFor: DATA.work.map((job) => ({
+    "@type": "Organization",
+    name: job.company,
+    sameAs: job.href,
+  })),
+  sameAs: Object.values(DATA.contact.social)
+    .filter((social) => social.url.startsWith("http"))
+    .map((social) => social.url),
+};
+
 export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+      />
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">

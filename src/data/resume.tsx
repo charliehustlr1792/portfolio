@@ -3,12 +3,34 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Charliehustler",
+  // Full legal name and alias used for SEO / structured data / AI crawlers
+  // (kept separate from `name` so the visible hero text stays unchanged).
+  fullName: "Nilangshu Bhattacharyya",
+  alternateName: "Charliehustler",
+  seoTitle: "Nilangshu Bhattacharyya (Charliehustler)",
+  jobTitle: "Backend-focused Full-Stack Developer",
   initials: "NB",
-  url: "https://charliehustler.vercel.app/",
+  url: "https://charliehustlr.me",
   location: "Kolkata, India",
   locationLink: "https://www.google.com/maps/place/Kolkata",
-  description: "I'm a backend-focused developer passionate about elegant system design and scalable architecture. Currently building with Next.js, Go, and event-driven systems.",
+  description: "I'm a backend-focused full-stack developer passionate about elegant system design and scalable architecture. Currently exploring Go, and AI applications.",
   summary: "I'm a undergraduate student at Jadavpur University with a passion for full-stack development. I've built interactive web applications serving 1000+ users, developed AI-powered SaaS platforms, and actively contribute to technical communities. I enjoy creating solutions that blend engineering principles with modern web technologies.",
+  keywords: [
+    "Nilangshu Bhattacharyya",
+    "Charliehustler",
+    "Backend Developer",
+    "Full-Stack Developer",
+    "Software Engineer",
+    "Node.js Developer",
+    "Go Developer",
+    "Next.js Developer",
+    "Jadavpur University",
+    "Kolkata",
+    "India",
+    "System Design",
+    "AI Applications",
+    "Web Developer Portfolio",
+  ],
   avatarUrl: "/me.png",
   skills: [
     "JavaScript",

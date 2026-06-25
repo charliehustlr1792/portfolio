@@ -1,0 +1,40 @@
+# Nilangshu Bhattacharyya (Charliehustler)
+
+> Backend-focused full-stack developer and undergraduate at Jadavpur University (Kolkata, India). Builds scalable backends and AI-powered web applications with Node.js, Go, Next.js, and PostgreSQL. Has shipped interactive platforms serving 1000+ users.
+
+## About
+
+Nilangshu Bhattacharyya, who also goes by the handle "Charliehustler", is a backend-focused full-stack developer passionate about elegant system design and scalable architecture. He is currently an undergraduate student at Jadavpur University (Bachelor of Engineering, 2023–2027) and is actively exploring Go and AI applications. He has built interactive web applications serving 1000+ users, developed AI-powered SaaS platforms, and contributes to technical communities.
+
+- Name: Nilangshu Bhattacharyya
+- Alias / handle: Charliehustler
+- Role: Backend-focused Full-Stack Developer
+- Location: Kolkata, West Bengal, India
+- Education: Jadavpur University — Bachelor of Engineering (2023–2027)
+- Website: https://charliehustlr.me
+
+## Skills
+
+JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, PostgreSQL, MySQL, MongoDB, Redis, Docker, Kafka, Kubernetes, Linux, AWS, Git, GitHub, C++, Go, GraphQL, Prisma, CI/CD, DevOps, Monorepo, WebSocket, WebRTC, OAuth.
+
+## Experience
+
+- Backend Developer Intern — Deep Duo Foundation (Remote, Jan 2026 – March 2026): https://deepduofoundation.com/
+- Full Stack Developer Intern — Crework Labs (Remote, March 2026 – June 2026): https://www.creworklabs.com/
+
+## Projects
+
+- Huddle – 2D Interactive Web Application (2025): Interactive 2D game platform serving 1000+ participants during Cypher 3331. Built with Next.js, Phaser.js, Redux, Node.js, Express.js, Prisma, and PostgreSQL. https://huddlecypher3331.vercel.app/
+- SynthScrape – AI-Powered Visual Automated Data Extraction (2025): Full-stack SaaS with a drag-and-drop, no-code workflow builder using React Flow and Puppeteer, with a credit-based payment system. https://synth-scrape.vercel.app/
+- PostPilot – Content Management System (2025): CMS for content creation, scheduling, and cross-platform publishing. Integrates OpenAI GPT APIs and ML models for optimal posting times. https://github.com/charliehustlr1792/postpilot
+- Baymax – Mental Health Chatbot (2026): Mental health chatbot built with Retrieval Augmented Generation (RAG), Python, Groq API, and Next.js. https://baymaxcompanion.vercel.app/
+- Elite Ball Knowledge (2026): Terminal app for the FIFA World Cup 2026 (live scores, fixtures, standings, top scorers), written in Go with Cobra, Bubble Tea, and Lipgloss. https://github.com/charliehustlr1792/fifawc26
+
+## Links
+
+- Website: https://charliehustlr.me
+- GitHub: https://github.com/charliehustlr1792
+- LinkedIn: https://www.linkedin.com/in/nilangshu-bhattacharyya-4586a8274
+- X (Twitter): https://x.com/charliehustler9
+- Email: nilangshubhattacharyya1234@gmail.com
+- Blog: https://charliehustlr.me/blog
