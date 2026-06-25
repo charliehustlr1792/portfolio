@@ -14,7 +14,7 @@ export const DATA = {
   location: "Kolkata, India",
   locationLink: "https://www.google.com/maps/place/Kolkata",
   description: "I'm a backend-focused full-stack developer passionate about elegant system design and scalable architecture. Currently exploring Go, and AI applications.",
-  summary: "I'm a undergraduate student at Jadavpur University with a passion for full-stack development. I've built interactive web applications serving 1000+ users, developed AI-powered SaaS platforms, and actively contribute to technical communities. I enjoy creating solutions that blend engineering principles with modern web technologies.",
+  summary: "I'm Nilangshu Bhattacharyya (Charliehustler), an undergraduate student at Jadavpur University with a passion for full-stack development. I've built interactive web applications serving 1000+ users, developed AI-powered SaaS platforms, and actively contribute to technical communities. I enjoy creating solutions that blend engineering principles with modern web technologies.",
   keywords: [
     "Nilangshu Bhattacharyya",
     "Charliehustler",

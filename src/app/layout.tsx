@@ -64,6 +64,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     images: [DATA.avatarUrl],
   },
+  verification: {
+    other: {
+      "msvalidate.01": "2BF6FD9FCD7A698D12C45E9DFEE11AF5",
+    },
+  },
 };
 
 export default function RootLayout({
@@ -82,6 +87,9 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="light">
           <TooltipProvider delayDuration={0}>
             {children}
+            <footer className="mt-12 mb-20 text-center text-xs text-muted-foreground">
+              © {new Date().getFullYear()} {DATA.fullName} · {DATA.alternateName}
+            </footer>
             <Navbar />
           </TooltipProvider>
         </ThemeProvider>
